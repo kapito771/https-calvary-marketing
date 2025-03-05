@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KC Flavors Bakery</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: #ff6347;
+            color: white;
+            padding: 1rem;
+            text-align: center;
+        }
+        .container {
+            padding: 2rem;
+        }
+        .cake-gallery {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 1rem;
+        }
+        .cake-gallery img {
+            width: 100%;
+            max-width: 300px;
+            border-radius: 8px;
+        }
+        footer {
+            background-color: #ff6347;
+            color: white;
+            text-align: center;
+            padding: 1rem;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>KC Flavors Bakery</h1>
+        <p>Delicious cakes for every occasion!</p>
+    </header>
+    <div class="container">
+        <h2>Our Cake Selection</h2>
+        <div class="cake-gallery">
+            <img src="cake1.jpg" alt="Cake 1">
+            <img src="cake2.jpg" alt="Cake 2">
+            <img src="cake3.jpg" alt="Cake 3">
+            <!-- Add more cake images as needed -->
+        </div>
+        <h2>Contact Us</h2>
+        <p>Phone: 0839532745 / 0614874407</p>
+        <p>Email: <a href="mailto:kcflavors27@gmail.com">kcflavors27@gmail.com</a></p>
+        <p>Find us on:
+            <a href="https://wa.me/yourwhatsappnumber" target="_blank">WhatsApp</a>,
+            <a href="https://facebook.com/yourfacebookpage" target="_blank">Facebook</a>,
+            <a href="https://tiktok.com/@yourtiktokhandle" target="_blank">TikTok</a>
+        </p>
+    </div>
+    <footer>
+        <p>&copy; 2023 KC Flavors Bakery. All rights reserved.</p>
+    </footer>
+</body>
+</html>
