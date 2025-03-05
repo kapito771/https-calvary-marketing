@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calvary Marketing</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            text-align: center;
+        }
+        header {
+            background: #333;
+            color: white;
+            padding: 20px;
+            font-size: 24px;
+        }
+        section {
+            padding: 20px;
+            max-width: 800px;
+            margin: auto;
+            background: white;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+            border-radius: 10px;
+        }
+        .contact {
+            background: #222;
+            color: white;
+            padding: 10px;
+            margin-top: 20px;
+        }
+        .socials a {
+            color: white;
+            margin: 0 10px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <header>Calvary Marketing</header>
+    <section>
+        <h2>Your One-Stop Solution for Business Growth</h2>
+        <p>Specializing in:</p>
+        <ul>
+            <li>Web Designing</li>
+            <li>Logo & Poster Designing</li>
+            <li>Social Media Content & Advertising</li>
+            <li>Printing Solutions</li>
+            <li>Business Proposals & Plans</li>
+        </ul>
+        <p><strong>"Your Vision, Our Creativity – Success is Just One Step Away!"</strong></p>
+    </section>
+    <section class="contact">
+        <h3>Contact Us</h3>
+        <p>📞 0614874407 | ✉️ calvernganya@gmail.com</p>
+        <div class="socials">
+            <a href="https://www.tiktok.com/@ministerganya">TikTok</a> |
+            <a href="https://www.facebook.com/ministerganya">Facebook</a> |
+            <a href="https://www.instagram.com/ministerganya">Instagram</a>
+        </div>
+    </section>
+</body>
+</html>
